@@ -2,10 +2,11 @@ import subprocess
 import whisper
 from openai import OpenAI
 import os
+from dotenv import load_dotenv
 
-# Configuración de la clave de API de OpenAI
-client = OpenAI(api_key="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")  # Cambia por tu clave
-
+load_dotenv()  # CREA EL .ENV PARA IMPORTAR LA KEY
+api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=api_key)
 
 def verificar_rutas(video_path, audio_path, transcripcion_path, informe_path):
     """

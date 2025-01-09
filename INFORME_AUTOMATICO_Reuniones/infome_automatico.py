@@ -6,8 +6,11 @@ import spacy
 from transformers import pipeline
 from temas_clave import TEMAS_CLAVE
 
-# Configuración de la clave de API de OpenAI
-client = OpenAI(api_key="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")  # Cambia por tu clave
+from dotenv import load_dotenv
+
+load_dotenv()  # CREA EL .ENV PARA IMPORTAR LA KEY
+api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=api_key)
 
 # Cargar modelo de spaCy
 nlp = spacy.load("es_core_news_md")  # Cambia a "en_core_web_md" si el idioma es inglés
