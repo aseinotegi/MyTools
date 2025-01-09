@@ -1,0 +1,3 @@
+
+ns=4;s=|var|CODESYS Control for Raspberry Pi 64 SL.Application.ManageData.AssetDev[1].DataMessage[1].Data
+ns=4;s=|var|CODESYS Control for Raspberry Pi 64 SL.Application.ManageData.AssetDev[1].BoolsMaxPLC
