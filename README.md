@@ -74,7 +74,7 @@ En este repositorio se agrupan diferentes proyectos y scripts que he creado y ut
 - **Descripción**: Carpeta con scripts o versiones anteriores que guardo para referencia histórica, ya no se mantienen de forma activa.
 
 ### Autor
-**Tu Nombre o Nick**  
+**Ander Sein**  
 *Repositorio creado con fines de respaldo y mejora continua de mis herramientas en Python.*
 
 ¡Gracias por visitar este repositorio! Siéntete libre de explorar cada carpeta o script para ver más detalles. 
